@@ -1,0 +1,47 @@
+.selected-band {
+  background-image: url("/images/grab.jpg");
+  background-repeat: no-repeat;
+  height: 787px;
+}
+
+.selected-band .band .videos {
+  position: relative;
+  bottom: -210px;
+  left: 235px;
+}
+
+.selected-band .band .band-name {
+  position: relative;
+  top: 100px;
+  left: 100px;
+  font-size: 3em;
+  color: rgb(255, 234, 12);
+  text-shadow: 0px 0px 10px rgb(27, 117, 255);
+}
+
+.selected-band .band .band-name:before {
+  content: "Hell yes, ";
+}
+
+.selected-band .band .band-name:after {
+  content: "!";
+}
+
+.band-list {
+  list-style-type: none;
+}
+
+.band-list li.band-name {
+  display: inline-block;
+  margin: 1em;
+  padding: 0.5em;
+  border-radius: 15px;
+  background-color: rgb(230, 5, 252);
+  background-image: linear-gradient(to bottom right, rgb(230, 5, 252), rgb(252, 155, 14))
+}
+
+.band-list li.band-name a {
+  color: white;
+  font-weight: bold;
+  font-family: sans-serif;
+}

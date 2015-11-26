@@ -34,14 +34,19 @@
 .band-list li.band-name {
   display: inline-block;
   margin: 1em;
-  padding: 0.5em;
-  border-radius: 15px;
-  background-color: rgb(230, 5, 252);
-  background-image: linear-gradient(to bottom right, rgb(230, 5, 252), rgb(252, 155, 14))
 }
 
 .band-list li.band-name a {
+  padding: 0.5em;
+  border-radius: 15px;
+  background-color: rgb(230, 5, 252);
+  background-image: linear-gradient(to bottom right, rgb(230, 5, 252), rgb(252, 155, 14));
   color: white;
   font-weight: bold;
   font-family: sans-serif;
+}
+
+.band-list li.band-name a:hover {
+  background-color: rgb(230, 252, 5);
+  background-image: linear-gradient(to bottom right, rgb(230, 252, 5), rgb(14, 155, 252));
 }
